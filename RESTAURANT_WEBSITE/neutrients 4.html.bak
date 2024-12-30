@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link href="paymentform.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style 3.css">
+		<style>
+	body {
+  background-image: url(data:image/jpeg;base64,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);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+	</style>
+</head>
+
+<body>
+    <div class="wrapper">
+      <center>  
+        <img src="C:\Users\konre\OneDrive\Pictures\Screenshots\Screenshot (53).png" width="400" height="400">
+		</center>
+		<div class="input-group">
+                <div class="input-box">                  
+				   <button type="submit" onClick="location.href='https://www.google.com/search?q=arabian+chicken+mandi+recipe&source=lmns&tbm=vid&bih=591&biw=1283&hl=en-GB&sa=X&ved=2ahUKEwjpoZ2c9Mj7AhV4HLcAHcpTDy0Q_AUoAXoECAEQAQ#fpstate=ive&vld=cid:66c6aebd,vid:XoIy4WhwdE4'" class="btn">CLICK HERE FOR VIDEO RECIPE</button>
+				   
+                </div>
+            </div>
+		<div class="input-group">
+                <div class="input-box">                  
+				   <button type="submit" onClick="location.href='box 2.html'" class="btn">CONTINUE</button>
+                </div>
+            </div></div>
+</body>
+
+</html>

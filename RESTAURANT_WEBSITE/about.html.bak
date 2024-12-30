@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  
+    <style>
+        .fa:hover {
+            opacity: 0.9;
+        }
+  
+       .fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}
+.fa-instagram {  
+  background: #F660AB;  
+  color: white;  
+}  
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+}
+  
+        .fa {
+            padding: 20px;
+            font-size: 40px;
+            width: 60px;
+            text-decoration: none;
+            margin: 5px 80px;
+        }
+  
+        h1 {
+            color: green;
+        }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url(https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width:100%;
+  height:100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: 00FFFF;
+   background-image: url(https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+
+
+.container1 {
+  padding: 0 16px;
+}
+
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button1:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Tasty Buds</h1>
+  <p>We "Tasty buds", a food court with a tinge of Japanese culture,are trying to make sure that your.</p>
+  <p>foodie soul is engaged with a wide variety of recipes ranging from starters to deserts,where in each Indian</p>
+  <p>recipe has an alternative Japanese recipe to enrich your experience.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column1">
+    <div class="card1">
+	      <center><img style="border-radius: 100%;"src="C:\Users\konre\OneDrive\Pictures\Screenshots\AKSHITH.png"  width="250" height="250"></center>
+      <div class="container1">
+        <center><h2>2103A51171</h2>
+        <p class="title">Team Leader</p>
+        <p>2103A51171@sru.edu.in</p></center>
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card1">
+	     <center> <img style="border-radius: 100%;"src="C:\Users\konre\OneDrive\Pictures\Screenshots\Screenshot (76).png"  width="250" height="250"></center>
+	  <div class="container1">
+        <center><h2>2103A51206</h2>
+        <p class="title">TeamMember</p>
+        <p>2103A51206@sru.edu.in</p></center>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column1">
+    <div class="card1">
+      <center><img style="border-radius: 100%;" src="C:\Users\konre\OneDrive\Pictures\Screenshots\Screenshot (75).png" alt="John" width="250" height="250"></center>
+	  <div class="container1">
+        <center><h2>2103A51198</h2>
+        <p class="title">Team member</p>
+        <p>2103A51198@sru.edu.in</p></center>
+      </div>
+    </div>
+  </div>
+
+<div class="column1">
+    <div class="card1"> 
+      <center><img style="border-radius: 100%;" src= alt="John" width="250" height="250"></center>	
+	<div class="container1">
+        <center><h2>2103A51583</h2>
+        <p class="title">Team member</p>
+        <p>2103A51583@sru.edu.in</p></center>
+      </div>
+    </div>
+  </div>
+</div>
+       <center><blink> <h1>OUR SOCIAL MEDIA PLATFORMS</h1></blink></center>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center>
+  
+        <a href="#" class="fa fa-facebook"></a>  
+		<a href="#" class="fa fa-twitter"></a>  
+		<a href="#" class="fa fa-instagram"></a>  
+		<a href="#" class="fa fa-youtube"></a> 
+    </center>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

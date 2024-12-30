@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+
+<style>
+#more {display: none;}
+#more1 {display: none;}
+#more2 {display: none;}
+body {
+  
+ background-color:#A1DEA2
+}
+</style>
+
+  
+  </head>
+  <body>
+
+  
+  <div class="container">
+<div class="jumbotron">
+
+<header >
+  <h1>Welcome to TASTY BUDS</h1>
+  <p>Check out what's healthy for you !!!</p>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <h3>ARE DUMPLINGS HEALTHY?</h3>
+	<img src="https://img.huffingtonpost.com/asset/5cd350b42100003100d34471.jpeg?ops=scalefit_720_noupscale&format=webp" width="300" height="250"></img><br>
+    <p>It’s Friday night and you and your friends have dumplings on your mind -- it's only natural.<br>
+
+Stuffed with your favourite fillings, it's impossible to stop at just a few of these salty and moreish parcels.But, are they considered <br>healthy, or a treat?<span id="dots">...</span><span id="more">
+
+“Dumplings are a reasonably healthy option -- it’s the quantity you're eating that you really need to watch because it's easy to eat too many,”Simone Austin, accredited practising dietitian and DAA spokesperson, told The Huffington Post Australia.<br>
+One of the most important factors when determining if dumplings are healthy is whether they are steamed, pan fried or deep fried.<br>
+
+Steamed dumplings are the best option in terms of fat content, with pan fried the next best.<br>
+
+“If they do fry it -- like gyoza which are usually lightly fried -- then it puts the fat content up a little,” Austin said.<br>
+
+“You want to avoid ones that have been completely deep fried.”<br>
+
+The quality of the meat filling can also affect the healthiness of dumplings.<br>
+
+“If it’s fairly lean meat to start with, the dumpling is going to be quite low in fat in that sense,” Austin said.<br>
+
+The same goes for frozen dumplings you buy from the supermarket. As long as they're not pre-deep fried and contain whole, healthy ingredients they are an okay option,according to Austin.</span>
+<button onclick="myFunction()" id="myBtn">Read more</button></p>
+  </div>
+  <div class="col-md-4">
+    <h3>FOOD ADDICTION.</h3>
+	<img src="https://www.shutterstock.com/image-photo/stop-excited-stout-woman-reaching-260nw-1087788116.jpg" width="300" height="250"></img><br>
+    <p>A few things can help prepare for giving up junk foods and make the transition easier:<span id="dots1">...</span><span id="more1">
+
+Trigger foods: Write down a list of the foods that cause cravings and/or binges. These are the trigger foods to avoid completely.<br>
+Fast food places: Make a list of fast food places that serve healthy foods and note their healthy options. This may prevent a relapse when hungry and not in the mood to cook.<br>
+What to eat: Think about what foods to eat — preferably healthy foods that are liked and already eaten regularly.<br>
+Pros and cons: Consider making several copies of the pro-and-con list. Keep a copy in the kitchen, glove compartment, and purse or wallet.<br>
+Additionally, don’t go on a diet. Put weight loss on hold for at least 1–3 months.<br>
+
+Overcoming food addiction is difficult enough. Adding hunger and restrictions to the mix is likely to make things harder.<br>
+
+After taking these preparatory steps, set a date in the near future — like the coming weekend — from which point onward the addictive trigger foods won’t be touched again.</span>
+<button onclick="myFunction1()" id="myBtn1">Read more</button></p>
+
+</p>
+  </div>
+  <div class="col-md-4">
+    <h3>Is Paneer Tikka Nutritious?</h3>
+	<img src="https://images.onlymyhealth.com/imported/images/2021/May/07_May_2021/big_paneer.jpg" width="300" height="250"></img>
+    <p>Well, we know of sure that paneer is very nutritious and healthy food. Now let us know from our expert, Nutritionist Ms. Shilpa Singh from Fatima Hospital, Lucknow, if she thinks the same about ‘Paneer Tikka’.<span id="dots2">...</span><span id="more2">
+	
+	According to her paneer tikka is healthy given that it is taken in moderate quantity. It contains protein and good fats which are essential nutrients for our body. Since it is marinated it becomes little more on the heavier side. 
+
+If there is someone who wants to be healthier then it comes as a boon. However it is not recommended to people who have diabetes, obese and people suffering from heart problems. Reason being that the paneer which is used in paneer tikka is generally full fat which is not good for them, also full fat curd in added to marinate.
+ You can instead take low fat paneer if you are making it at home, that could be consumed by everyone in less quantity and is healthier too.</span>
+<button onclick="myFunction2()" id="myBtn2">Read more</button></p>
+  </div>
+</div>
+<footer id="footer"><center>
+Copyright © 2022-2023 OnlineFoodCourt.
+		All Rights are reserved</center>
+ </footer>
+ </div>
+
+</div>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction1() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+function myFunction2() {
+  var dots = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+</body>
+</html>
